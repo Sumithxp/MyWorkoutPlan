@@ -310,7 +310,9 @@ const app = document.getElementById("app");
 function renderWorkout(day) {
   return `
     <section id="${day.id}" class="day-phone">
-      <div class="day-phone__hero" style="background-image: url('${day.image}')"></div>
+      <div class="day-phone__hero" style="background-image: url('${day.exercises[0]?.image}')">
+        <a class="hero-back" href="index.html" aria-label="Back to home"><img src="assets/back-icon.svg" alt="" width="18" height="18" /></a>
+      </div>
       <div class="day-phone__body">
         <div class="day-phone__title-row">
           <div>
@@ -323,8 +325,8 @@ function renderWorkout(day) {
 
         <div class="workout-list">
           ${day.exercises
-            .map(
-              (exercise, index) => `
+      .map(
+        (exercise, index) => `
                 <div class="workout-item" data-name="${exercise.name}" data-index="${index}">
                   <div class="card" role="button" tabindex="0">
                     <div class="thumb" style="background-image: url('${exercise.image}')"></div>
@@ -344,8 +346,8 @@ function renderWorkout(day) {
                   </div>
                 </div>
               `,
-            )
-            .join("")}
+      )
+      .join("")}
         </div>
       </div>
     </section>
