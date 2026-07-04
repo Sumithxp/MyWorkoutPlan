@@ -1,0 +1,5 @@
+<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="320" rx="32" fill="#172554"/>
+  <rect x="70" y="80" width="180" height="180" rx="38" fill="#111827" stroke="#7dd3fc" stroke-width="8"/>
+  <text x="50%" y="52%" font-size="18" fill="#f8fafc" text-anchor="middle" font-family="Segoe UI, Roboto, sans-serif">Day 1</text>
+</svg>
