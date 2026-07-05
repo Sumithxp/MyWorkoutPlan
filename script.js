@@ -316,7 +316,7 @@ function renderWorkout(day) {
       </div>
       <div class="day-phone__body">
         <div class="day-phone__title-row">
-          <div>            <p class="eyebrow">${day.id === "rest-day" ? "Recovery" : "Training"}</p>            
+          <div> <p class="eyebrow">${day.id === "rest-day" ? "Recovery" : "Training"}</p>            
            
           </div>
           <span class="pill">${day.exercises.length} exercises</span>
