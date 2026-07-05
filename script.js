@@ -41,7 +41,7 @@ const workouts = [
       },
       {
         name: "Cable Chest Press",
-        image: "assets/cable-chest-press.svg",
+        image: "assets/cable-chest-press.png",
         meta: "3 × 8–10",
         details: ["Tempo: 3-1-2", "Purpose: chest hypertrophy with joint safety"],
         howTo: ["Set cables at mid-chest height", "Press handles forward with slight elbow bend", "Pause at full extension and control the return"],
@@ -86,7 +86,7 @@ const workouts = [
     exercises: [
       {
         name: "Romanian Deadlift (RDL)",
-        image: "assets/romanian-deadlift.svg",
+        image: "assets/romanian-deadlift.png",
         meta: "4 × 6–8",
         details: ["Tempo: 3-1-2", "Cue: push hips back with a slight knee bend", "Purpose: posterior-chain strength without extra knee stress"],
         howTo: ["Hinge at the hips and keep a neutral spine", "Slide the bar or dumbbells down the thighs while keeping a soft knee bend", "Drive hips forward to return and squeeze glutes"],
@@ -100,7 +100,7 @@ const workouts = [
       },
       {
         name: "Split Squat (Short Stride)",
-        image: "assets/split-squat.svg",
+        image: "assets/split-squat.png",
         meta: "3 × 8 each leg",
         details: ["Cue: keep shin vertical", "Purpose: balanced quad and glute work"],
         howTo: ["Take a short stance and keep torso upright", "Descend until the front thigh is near parallel while keeping knee over toe", "Drive through the front heel to stand"],
@@ -221,28 +221,28 @@ const workouts = [
     exercises: [
       {
         name: "Hip Thrust",
-        image: "assets/hip-thrust.svg",
+        image: "assets/hip-thrust.png",
         meta: "4 × 8–10",
         details: ["Tempo: 2-1-2", "Cue: chin tucked and ribs down", "Purpose: best glute builder with minimal knee load"],
         howTo: ["Position upper back on bench with feet flat and shoulder blade contact", "Drive hips up by squeezing glutes and pause at the top", "Lower under control and avoid hyperextending the lumbar spine"],
       },
       {
         name: "Romanian Deadlift (Light)",
-        image: "assets/romanian-deadlift.svg",
+        image: "assets/romanian-deadlift.png",
         meta: "3 × 8–10",
         details: ["Purpose: posterior-chain emphasis and hip hinge strength"],
         howTo: ["Hinge at hips with a neutral spine, sliding weight down thighs", "Maintain a soft knee and feel stretch in hamstrings", "Return by driving hips forward and squeezing glutes"],
       },
       {
         name: "Cable Kickbacks",
-        image: "assets/cable-kickbacks.svg",
+        image: "assets/cable-kickbacks.png",
         meta: "3 × 12–15",
         details: ["Cue: do not arch the back", "Purpose: glute max isolation"],
         howTo: ["Attach an ankle cuff and hinge slightly forward", "Extend the leg back focusing on glute contraction", "Control the return and avoid rotating the hip"],
       },
       {
         name: "Step-Ups (Low Box)",
-        image: "assets/step-ups.svg",
+        image: "assets/step-ups.png",
         meta: "3 × 10 each leg",
         details: ["Cue: drive through heel", "Purpose: functional glute and quad work"],
         howTo: ["Place one foot on low box and press through the heel to stand", "Keep torso tall and avoid pushing off the trailing leg", "Lower with control"],
@@ -256,7 +256,7 @@ const workouts = [
       },
       {
         name: "Glute Medius Band Walks",
-        image: "assets/glute-medius-band-walks.svg",
+        image: "assets/glute-medius-band-walks.png",
         meta: "2 × 20 steps",
         details: ["Purpose: hip stability and knee protection"],
         howTo: ["Place mini band above knees and take controlled lateral steps", "Keep tension on the band and maintain slight squat position", "Face forward and avoid collapsing the knees"],
@@ -267,30 +267,30 @@ const workouts = [
 ];
 
 const exerciseImageMap = {
-  "Pull-Ups or Lat Pulldown": "assets/Lat Pulldown.png",
-  "Dumbbell Incline Press": "assets/Dumbbell Incline Press.png",
-  "Barbell Row or Cable Row": "assets/Barbell Row.png",
-  "Dumbbell Shoulder Press": "assets/Dumbbell Shoulder Press.png",
-  "Face Pulls": "assets/Face Pulls.png",
-  "Dumbbell Curls": "assets/Dumbbell Curls.png",
-  "Rope Triceps Pushdown": "assets/Rope Triceps Pushdown.png",
-  "Romanian Deadlift (RDL)": "assets/Romanian Deadlift (RDL).png",
-  "Leg Press (Shallow Range)": "assets/Leg Press (Shallow Range).png",
-  "Hamstring Curl": "assets/Hamstring Curl.png",
-  "Glute Bridge": "assets/Glute Bridge.png",
-  "Calf Raises": "assets/Calf Raises.png",
-  "Dumbbell Flat Press": "assets/Dumbbell Flat Press.png",
-  "Cable Fly (High-to-Low)": "assets/Cable Fly (High-to-Low).png",
-  "Seated Row": "assets/Seated Row.png",
-  "Lat Pulldown (Wide Grip)": "assets/Lat Pulldown.png",
-  "Lateral Raises": "assets/Lateral Raises.jpg",
-  "Hammer Curls": "assets/Hammer Curls.jpg",
-  "Overhead Cable Triceps Extension": "assets/Overhead Cable Triceps Extension.jpg",
-  "Hip Thrust": "assets/Glute Bridge.png",
-  "Cable Kickbacks": "assets/Glute Bridge.png",
-  "Step-Ups (Low Box)": "assets/Glute Bridge.png",
-  "Leg Curl": "assets/Hamstring Curl.png",
-  "Glute Medius Band Walks": "assets/Glute Bridge.png",
+  "Pull-Ups or Lat Pulldown": "assets/Lat-Pulldown.png",
+  "Dumbbell Incline Press": "assets/Dumbbell-Incline-Press.png",
+  "Barbell Row or Cable Row": "assets/Barbell-Row.png",
+  "Dumbbell Shoulder Press": "assets/Dumbbell-Shoulder-Press.png",
+  "Face Pulls": "assets/Face-Pulls.png",
+  "Dumbbell Curls": "assets/Dumbbell-Curls.png",
+  "Rope Triceps Pushdown": "assets/Rope-Triceps-Pushdown.png",
+  "Romanian Deadlift (RDL)": "assets/Romanian-Deadlift-(RDL).png",
+  "Leg Press (Shallow Range)": "assets/Leg-Press-(Shallow-Range).png",
+  "Hamstring Curl": "assets/Hamstring-Curl.png",
+  "Glute Bridge": "assets/Glute-Bridge.png",
+  "Calf Raises": "assets/Calf-Raises.png",
+  "Dumbbell Flat Press": "assets/Dumbbell-Flat-Press.png",
+  "Cable Fly (High-to-Low)": "assets/Cable-Fly-(High-to-Low).png",
+  "Seated Row": "assets/Seated-Row.png",
+  "Lat Pulldown (Wide Grip)": "assets/Lat-Pulldown-(Wide-Grip).png",
+  "Lateral Raises": "assets/Lateral-Raises.jpg",
+  "Hammer Curls": "assets/Hammer-Curls.jpg",
+  "Overhead Cable Triceps Extension": "assets/Overhead-Cable-Triceps-Extension.jpg",
+  "Hip Thrust": "assets/hip-thrust.png",
+  "Cable Kickbacks": "assets/cable-kickbacks.png",
+  "Step-Ups (Low Box)": "assets/step-ups.png",
+  "Leg Curl": "assets/Hamstring-Curl.png",
+  "Glute Medius Band Walks": "assets/glute-medius-band-walks.png",
 };
 
 function getExerciseImage(name) {
@@ -311,13 +311,13 @@ function renderWorkout(day) {
   return `
     <section id="${day.id}" class="day-phone">
       <div class="day-phone__hero" style="background-image: url('${day.exercises[0]?.image}')">
+       <div class="title-overlay">${day.exercises[0]?.name}</div>
         <a class="hero-back" href="index.html" aria-label="Back to home"><img src="assets/back-icon.svg" alt="" width="18" height="18" /></a>
       </div>
       <div class="day-phone__body">
         <div class="day-phone__title-row">
-          <div>
-            <p class="eyebrow">${day.id === "rest-day" ? "Recovery" : "Training"}</p>
-            <h1>${day.title}</h1>
+          <div>            <p class="eyebrow">${day.id === "rest-day" ? "Recovery" : "Training"}</p>            
+           
           </div>
           <span class="pill">${day.exercises.length} exercises</span>
         </div>
@@ -428,6 +428,8 @@ setTimeout(() => {
         if (!hero || !item) return;
         const currentImage = ex?.image || thumb?.style.backgroundImage.replace(/url\(['"]?(.*?)['"]?\)/, '$1') || '';
         hero.style.backgroundImage = `url('${currentImage}')`;
+        const titleOverlay = hero.querySelector('.title-overlay');
+        if (titleOverlay) titleOverlay.textContent = name;
         items.forEach((entry) => entry.querySelector('.details')?.classList.remove('open'));
         items.forEach((entry) => entry.classList.remove('active'));
         item.classList.add('active');
