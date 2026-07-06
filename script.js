@@ -41,7 +41,7 @@ const workouts = [
       },
       {
         name: "Cable Chest Press",
-        image: "assets/cable-chest-press.png",
+        image: "assets/Cable-Chest-Press.png",
         meta: "3 × 8–10",
         details: ["Tempo: 3-1-2", "Purpose: chest hypertrophy with joint safety"],
         howTo: ["Set cables at mid-chest height", "Press handles forward with slight elbow bend", "Pause at full extension and control the return"],
@@ -316,7 +316,7 @@ function renderWorkout(day) {
       </div>
       <div class="day-phone__body">
         <div class="day-phone__title-row">
-          <div> <p class="eyebrow">${day.id === "rest-day" ? "Recovery" : "Training"}</p>            
+          <div> <p class="eyebrow">${day.id}   ${day.id === "rest-day" ? "Recovery" : "Training"}</p>            
            
           </div>
           <span class="pill">${day.exercises.length} exercises</span>
